@@ -1,0 +1,67 @@
+/* Write your CSS here */
+h1 {
+  text-align: center;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.search-character {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: end;
+}
+
+.your-heading,
+.try-this-heading,
+.features-heading {
+  margin-bottom: 20px;
+}
+
+.horizontal-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 30vw;
+}
+
+.carousel,
+.horizontal-carousel {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.carousel img,
+.horizontal-carousel img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.horizontal-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.images {
+  height: 100px;
+  width: 100px;
+}
+
+/* Additional styling for Navbar and other components can be added here */

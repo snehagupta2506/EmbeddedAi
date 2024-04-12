@@ -1,0 +1,62 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.box {
+  background-color:light-grey;
+}
+img {
+  height: 100px;
+  width: 100px;
+  text-align: left;
+  border-radius: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+p {
+  text-align: right;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* CreateCharacterPage */
+  form {
+    padding: 0 20px;
+  }
+}
